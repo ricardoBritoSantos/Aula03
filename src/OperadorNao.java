@@ -13,7 +13,6 @@ public class OperadorNao {
 		if(!tipoUsuario.equalsIgnoreCase("administrador")) {
 			System.out.println("Atenção, usuário sem poderes administrativos. Algumas tarefas serão bloqueadas");
 		}
-		
 		leitor.close();
 	}
 
